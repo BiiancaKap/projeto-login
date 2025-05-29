@@ -20,18 +20,16 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php">
-                    <div>
+                    <div class="campo">
                         <label for="email"><span class="material-symbols-outlined">account_circle</span></label>
-                        <input type="email" name="email" id="email" placeholder="Seu e-mail" required>
+                        <input class="a" type="email" name="email" id="email" placeholder="Seu e-mail" required>
                     </div>
-                    <div>
+                    <div class="campo">
                         <label for="senha"><span class="material-symbols-outlined">lock</span></label>
-                        <input type="password" name="senha" id="senha" placeholder="Sua senha" min="8" max="30" required>
+                        <input class="a" type="password" name="senha" id="senha" placeholder="Sua senha" min="8" max="30" required>
                     </div>
-                    <div>
-                        <input type="submit" value="Enviar"><br>
+                        <input id="botao" type="submit" value="Enviar">
                         <a href="#">Esqueci minha senha <span class="material-symbols-outlined">mail</span></a>
-                    </div>
                 </form>
             </div>
 

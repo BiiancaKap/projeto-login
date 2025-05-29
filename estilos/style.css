@@ -1,2 +1,92 @@
 @charset "UTF-8";
 
+:root {
+    --cor0: #ffffff;
+    --cor1: #2a1874;
+    --cor2: #794ac0;
+    --car3: #eac5f7;
+    --cor4: #fdecdb;
+    --cor5: #A44A6D;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    width: 100vw;
+}
+body {
+    background-color: var(--cor2);
+}
+section {
+    background-color: var(--cor0);
+    margin: auto;
+    margin-top: 250px;
+    width: 33vw;
+    height: 53vh;
+    border-radius: 20px ;
+}
+div#img {
+    background: url(../imagens/img.jpg) center center no-repeat;
+    background-size: cover;
+    height: 26vw;
+    border-radius: 20px 20px 0px 0px;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    padding: 15px;
+}
+p{
+ padding-left: 10px;
+ padding-right: 10px;
+}
+.campo{
+    border-radius: 10px;
+    background-color: var(--cor2);
+    margin-bottom: 5px; 
+    color: var(--cor0);
+}
+form {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.a{
+    background-color: var(--car3);
+    padding: 10px;
+    width: 21vw;
+    border-radius: 10px;
+    font-size: 15px;
+}
+label{
+    padding: 10px;
+}
+#botao {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: var(--cor5);
+    color: var(--cor4);
+    font-size: 1em;
+}
+#botao:hover{
+    background-color: var(--cor4);
+    color: var(--cor5);
+}
+a {
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 7px;
+    padding: 10px;
+    border: 1px solid var(--cor5);
+    color: var(--cor5);
+    background-color: var(--cor0);
+    text-decoration: none;
+    font-size: 1em;
+}
+a:hover {
+    background-color: var(--cor4);
+}

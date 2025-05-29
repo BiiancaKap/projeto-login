@@ -1,1 +1,16 @@
 @charset "UTF-8";
+
+:root {
+    --cor1: #321C89;
+    --cor2: #6439A3;
+    --cor3: #C08AD8;
+    --cor4: #FED5A9;
+    --cor5: #A44A6D;
+}
+
+@media screen and (min-width: 818px){
+    body {
+        width: 100vw;
+        background: linear-gradient( #321C89, #6439A3, #FED5A9, #A44A6D )fixed;
+    }
+}
