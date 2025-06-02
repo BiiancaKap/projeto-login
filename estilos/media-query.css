@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* :root {
+:root {
     --cor1: #321C89;
     --cor2: #6439A3;
     --cor3: #C08AD8;
@@ -8,16 +8,38 @@
     --cor5: #A44A6D;
 }
 
-@media screen and (min-width: 818px){
+@media screen and (min-width: 768px){
     body {
-        width: 100vw;
         background: linear-gradient( #321C89, #6439A3, #FED5A9, #A44A6D )fixed;
     }
     section{
-        width: 80vw;
-        height: 280px;
+        width: 80%;
     }
     div#img{
-        display: inline-block;
+        float: left;
+        width: 30%;
+        height: 100%;
     }
-}/
+    div#form {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background: linear-gradient( #321C89, #6439A3, #FED5A9, #A44A6D )fixed;
+    }
+    section{
+        width: 950px;
+    }
+    div#img{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    div#form{
+        float: left;
+        width: 50%;
+    }
+}
