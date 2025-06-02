@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-:root {
+/* :root {
     --cor1: #321C89;
     --cor2: #6439A3;
     --cor3: #C08AD8;
@@ -13,4 +13,11 @@
         width: 100vw;
         background: linear-gradient( #321C89, #6439A3, #FED5A9, #A44A6D )fixed;
     }
-}
+    section{
+        width: 80vw;
+        height: 280px;
+    }
+    div#img{
+        display: inline-block;
+    }
+}/
