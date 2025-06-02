@@ -29,8 +29,6 @@ section {
     position: absolute;
     top: 25%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
     background-color: var(--cor0);
     margin-top: 250px;
     width: 250px;
@@ -38,9 +36,9 @@ section {
     border-radius: 20px ;
     overflow:hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-
     transition: width 0.5s, height 0.5s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 div#img {
     background: url(../imagens/img.jpg) center center no-repeat;
@@ -61,12 +59,31 @@ p{
 }
 .campo{
     background-color: var(--cor2);
+    border: 2px solid var(--cor2);
     width: 100%;
     height: 40px;
     display: block;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px; 
+}
+div.campo span {
     color: var(--cor0);
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+div.campo > input {
+    background-color: var(--car3);
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-10px);
+}
+div.campo > input:focus-within{
+    background-color: var(--cor0);
 }
 .a{
     background-color: var(--car3);
@@ -80,7 +97,7 @@ p{
     width: 100%;
     height: 40px;
     font-size: 1em;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
     background-color: var(--cor5);
     color: var(--cor4);
@@ -93,7 +110,7 @@ p{
 a {
     display: block;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid var(--cor5);
     color: var(--cor5);
     background-color: var(--cor0);

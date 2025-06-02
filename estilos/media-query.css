@@ -14,6 +14,7 @@
     }
     section{
         width: 80%;
+        height: 300px;
     }
     div#img{
         float: left;
@@ -32,6 +33,7 @@
     }
     section{
         width: 950px;
+        height: 400px;
     }
     div#img{
         float: right;
@@ -47,5 +49,6 @@
 }
     p{
     font-size: 1.2em;
+    margin: 20px 0px;
 }
 }
